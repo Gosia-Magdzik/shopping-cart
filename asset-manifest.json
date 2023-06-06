@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/shopping-cart/static/js/main.5144f785.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/ekologicznyOwczy.png": "/shopping-cart/static/media/ekologicznyOwczy.9a2b77dc0533a63dacaf.png",
+    "static/media/basket.svg": "/shopping-cart/static/media/basket.d9f8dfe7ed0ddc67068ad696d6f90d84.svg",
+    "index.html": "/shopping-cart/index.html",
+    "main.5144f785.js.map": "/shopping-cart/static/js/main.5144f785.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5144f785.js"
+  ]
+}
