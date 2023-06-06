@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: rgb(36,77,136);
+        background-color: #177785;
         font-family: 'IBM Plex Sans', monospace;
         //max-width: 1400px;
     }; 
