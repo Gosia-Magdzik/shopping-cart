@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.nav`
     display: flex;
     justify-content: center;
-    background-color: ${({ transparent }) => ( transparent ? 'transparent' : 'rgba(57,66,67,0.85)' )};
+    background-color: ${({ transparent }) => ( transparent ? 'transparent' : 'rgba(57,66,67,0.90)' )};
     padding: 32px 26px;
     height: auto;
     position: sticky;
