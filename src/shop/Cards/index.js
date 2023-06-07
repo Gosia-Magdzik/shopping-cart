@@ -1,25 +1,20 @@
-import { Wrapper, ImageBox, Image, Details, Button } from "./styled"
-
+import { Wrapper, Image, Details, Button, Title, Price } from "./styled"
 
 export const Cards = ({item}) => {
     if (!item) {
         return null;
-      }
+    }
 
     const {title, Collection, price, img} = item;
     return (
         <Wrapper>
-            <ImageBox>
                 <Image
                     src={img}
                     alt="image"
                 />
-            </ImageBox>
-            <Details>
-                <p> {title} </p>
-                <p> {Collection} </p>
-                <p>Price: {price} euro</p>
-            </Details>
+                <Title> {title} </Title>
+                <Details> {Collection} </Details>
+                <Price><u>Price:</u> {price} euro</Price>
             <Button>Add to card</Button>
         </Wrapper>
     );

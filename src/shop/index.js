@@ -1,14 +1,15 @@
-import  { list }  from "./Products/list"
-import { Cards } from "./Cards"
+import { list }  from "./Products/list";
+import { Cards } from "./Cards";
+import { Wrapper, Flex } from "./styled";
 
 export const Shop = () => {
     return (
-        <section>
-        {
-            list.map((item) => (
-                <Cards item= { item } />
-            ))
-        }
-        </section>
+                <Wrapper>
+                    {list.map((item) => (
+                        item && (
+                            <Cards item= { item } />
+                    )
+                    ))}
+                </Wrapper>
     );
 };
