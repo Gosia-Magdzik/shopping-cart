@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.nav`
     display: flex;
     justify-content: center;
-    background-color: ${({ transparent }) => ( transparent ? 'transparent' : 'rgba(87,98,102,0.7)' )};
+    background-color: ${({ transparent }) => ( transparent ? 'transparent' : 'rgba(57,66,67,0.85)' )};
     padding: 32px 26px;
     height: auto;
     position: sticky;
@@ -15,7 +15,10 @@ export const Wrapper = styled.nav`
 
 export const Title = styled.div`
     color: white;
-    font-size: 50px;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+
 `;
 
 export const Svg = styled.img`
@@ -29,4 +32,8 @@ export const NavBox = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: auto;
+`;
+
+export const Img = styled.img`
+
 `;

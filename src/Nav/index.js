@@ -1,12 +1,15 @@
-import { Wrapper, Title, Svg, NavBox } from "./styled";
+import { Wrapper, Title, Svg, NavBox, Img } from "./styled";
 import  basket  from "./basket.svg";
+import racket from "./racket.svg";
 
 export const Nav = ({transparent}) => {
     return (
         <Wrapper transparent={ transparent }>
             <NavBox>
                 <Title>
-                    Ekologiczne gospodarstwo rolne ☘️
+                    Tennis Shop 
+                    &nbsp;
+                    <Img src={racket}/>
                 </Title>
                 <Svg src={basket}/>
             </NavBox>
