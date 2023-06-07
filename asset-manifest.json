@@ -1,14 +1,26 @@
 {
   "files": {
-    "main.js": "/shopping-cart/static/js/main.5144f785.js",
+    "main.js": "/shopping-cart/static/js/main.44d517e9.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
-    "static/media/ekologicznyOwczy.png": "/shopping-cart/static/media/ekologicznyOwczy.9a2b77dc0533a63dacaf.png",
+    "static/media/ball12.jpg": "/shopping-cart/static/media/ball12.f5127da749e0713e0a3c.jpg",
+    "static/media/grip.jpg": "/shopping-cart/static/media/grip.71ec2c135d9dc3c42471.jpg",
+    "static/media/string.jpg": "/shopping-cart/static/media/string.c7ff0408321ab37d2f48.jpg",
+    "static/media/racket2.jpg": "/shopping-cart/static/media/racket2.01d5e6cb55940d26e20d.jpg",
+    "static/media/bag.jpg": "/shopping-cart/static/media/bag.a854004e2f03fb07f51d.jpg",
+    "static/media/racket3.jpg": "/shopping-cart/static/media/racket3.85b45624d53f79ebc002.jpg",
+    "static/media/ball4.jpg": "/shopping-cart/static/media/ball4.98276391a0d3a325a404.jpg",
+    "static/media/Racket1.jpg": "/shopping-cart/static/media/Racket1.389a2b2a1ac0ae1081cb.jpg",
+    "static/media/ring.jpg": "/shopping-cart/static/media/ring.e2bb073f0c929aa54364.jpg",
+    "static/media/cart.jpg": "/shopping-cart/static/media/cart.86162f15f639c8bc4ec1.jpg",
+    "static/media/Tshirt.jpg": "/shopping-cart/static/media/Tshirt.25c2e37380c5d9cddf56.jpg",
+    "static/media/shirt.jpg": "/shopping-cart/static/media/shirt.6e82567df07466816f7a.jpg",
+    "static/media/racket.svg": "/shopping-cart/static/media/racket.64136cb056c6839a3f039e42602a8c2d.svg",
     "static/media/basket.svg": "/shopping-cart/static/media/basket.d9f8dfe7ed0ddc67068ad696d6f90d84.svg",
     "index.html": "/shopping-cart/index.html",
-    "main.5144f785.js.map": "/shopping-cart/static/js/main.5144f785.js.map",
+    "main.44d517e9.js.map": "/shopping-cart/static/js/main.44d517e9.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5144f785.js"
+    "static/js/main.44d517e9.js"
   ]
 }
