@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
-    margin: 40px 100px 100px 10px;
+    margin: 40px auto 10px;
 
     @media (max-width: 1300px) {
         grid-template-columns: repeat(3, 1fr);
@@ -23,6 +23,10 @@ export const Wrapper = styled.div`
 `;
 
 
+export const Container = styled.div`
+    padding-left: 100px;
+    padding-right: 100px;
 
+`;
 
 

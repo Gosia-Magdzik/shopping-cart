@@ -6,8 +6,8 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     background-color: #8BBBC2;
-    margin: 20px;
-    padding: 15px;
+    margin: 15px;
+    padding: 10px;
     border-radius: 15px;
     box-shadow: 20px 20px 19px -12px black;
     transition: transform 0.3s ease-in-out;
@@ -18,8 +18,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Image = styled.img`
-    max-height: 350px;
-    width: auto;
+    height: auto;
+    width: 100%;
     border-radius: 10px;
     margin:5px;
 `;

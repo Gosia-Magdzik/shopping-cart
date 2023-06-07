@@ -1,9 +1,10 @@
 import { list }  from "./Products/list";
 import { Cards } from "./Cards";
-import { Wrapper, Flex } from "./styled";
+import { Wrapper, Container } from "./styled";
 
 export const Shop = () => {
     return (
+            <Container>
                 <Wrapper>
                     {list.map((item) => (
                         item && (
@@ -11,5 +12,6 @@ export const Shop = () => {
                     )
                     ))}
                 </Wrapper>
+            </Container>
     );
 };
