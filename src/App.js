@@ -1,7 +1,7 @@
 import { GlobalStyle } from "./GlobalStyle";
 import { Nav } from "./Nav";
 import { useState, useEffect } from "react";
-import { Cards } from "./Cards";
+import { Cards } from "./shop/Cards";
 import { Shop } from "./shop";
 
 export default () => {
