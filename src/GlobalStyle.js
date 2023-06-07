@@ -14,6 +14,5 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #177785;
         font-family: 'IBM Plex Sans', monospace;
-        //max-width: 1400px;
     }; 
 `;    
