@@ -1,8 +1,8 @@
 import { GlobalStyle } from "./GlobalStyle";
 import { Nav } from "./Nav";
 import { useState, useEffect } from "react";
-import { Cards } from "./shop/Cards";
 import { Shop } from "./shop";
+import { Footer } from "./footer";
 
 export default () => {
 
@@ -25,8 +25,8 @@ export default () => {
       <>
         <GlobalStyle />
           <Nav transparent={transparent}/>
-          <Cards />
           <Shop />
+          <Footer />
       </>
     );
 };
