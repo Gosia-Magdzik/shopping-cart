@@ -1,7 +1,14 @@
-
+import  { list }  from "./Products/list"
+import { Cards } from "./Cards"
 
 export const Shop = () => {
     return (
-    <p>shop</p>
+        <section>
+        {
+            list.map((item) => (
+                <Cards item= { item } />
+            ))
+        }
+        </section>
     );
 };
