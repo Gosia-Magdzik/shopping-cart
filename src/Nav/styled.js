@@ -38,7 +38,9 @@ export const Svg = styled.img`
     height: auto;
 
     @media (max-width: 768px) {
-        display: none;
+        width: 3em;
+        height: auto;
+        margin-left: 5px;
     };
 `;
 
@@ -52,6 +54,9 @@ export const NavBox = styled.div`
 
 export const Img = styled.img`
 
+@media (max-width: 768px) {
+        display: none;
+    };
 `;
 
 export const Size = styled.span`
