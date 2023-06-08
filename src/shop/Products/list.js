@@ -47,8 +47,8 @@ export const list = [
     },
     {
       id: 5,
-      title: "Balls Unlimited | 12 Pack",
-      Collection: "Play and Stay | Stage 1 | Training balls",
+      title: "Balls Unlimited",
+      Collection: " 12 Pack | Training balls",
       price: 20.95,
       img: ball12,
       amount: 1,
@@ -63,7 +63,7 @@ export const list = [
     },
     {
       id: 7,
-      title: "Pre-School Activities Pack ",
+      title: "Grip",
       Collection: "Wilson | Featherthin Grip | Black",
       price: 6,
       img: grip,
