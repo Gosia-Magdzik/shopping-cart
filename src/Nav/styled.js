@@ -53,3 +53,19 @@ export const NavBox = styled.div`
 export const Img = styled.img`
 
 `;
+
+export const Size = styled.span`
+    color: white;
+    background-color: #c33b3b;
+    padding: 10px 15px 11px 14px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -15px;
+    
+`;
+
+export const CartWrapper = styled.div`
+    display: flex;
+    align-items: flex-start;
+
+`;

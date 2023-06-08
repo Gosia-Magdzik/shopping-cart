@@ -51,8 +51,16 @@ export const Button = styled.button`
     font-weight: bold;
     font-size: 30px;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 10px 9px -6px black;
+
 
     &:hover {
         transform: scale(1.02);
+        background: #fff350;
+    }
+
+    &:active {
+        transform: scale(1.04);
+        background: #e0d64866;
     }
 `;
