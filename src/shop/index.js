@@ -1,17 +1,15 @@
 import { list }  from "./Products/list";
 import { Cards } from "./Cards";
-import { Wrapper, Container } from "./styled";
+import { Wrapper } from "./styled";
 
-export const Shop = () => {
+export const Shop = ({handleClick}) => {
     return (
-            <Container>
                 <Wrapper>
                     {list.map((item) => (
                         item && (
-                            <Cards item= { item } />
+                            <Cards item={ item } key={item.id} handleClick={handleClick}/>
                     )
                     ))}
                 </Wrapper>
-            </Container>
     );
 };

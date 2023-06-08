@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
 
     &:hover {
         transform: scale(1.02);
+        box-shadow: 30px 30px 29px -6px black;
     }
 `;
 
@@ -27,6 +28,7 @@ export const Image = styled.img`
 export const Details = styled.div`
     margin: 5px;
     font-size: 20px;
+    color: #545454;
 `;
 
 export const Title = styled.p`

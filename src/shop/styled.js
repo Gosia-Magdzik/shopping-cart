@@ -4,7 +4,9 @@ export const Wrapper = styled.div`
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
+
     margin: 40px auto 10px;
+    width: 80%;
 
     @media (max-width: 1300px) {
         grid-template-columns: repeat(3, 1fr);
@@ -19,14 +21,12 @@ export const Wrapper = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
+        width: 100%;
+
     };
 `;
 
 
-export const Container = styled.div`
-    padding-left: 100px;
-    padding-right: 100px;
 
-`;
 
 

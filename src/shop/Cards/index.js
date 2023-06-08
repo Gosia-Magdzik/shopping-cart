@@ -1,6 +1,6 @@
 import { Wrapper, Image, Details, Button, Title, Price } from "./styled"
 
-export const Cards = ({item}) => {
+export const Cards = ({item, handleClick}) => {
     if (!item) {
         return null;
     }
@@ -15,7 +15,7 @@ export const Cards = ({item}) => {
                 <Title> {title} </Title>
                 <Details> {Collection} </Details>
                 <Price><u>Price:</u> {price} euro</Price>
-            <Button>Add to card</Button>
+            <Button onClick={() => handleClick(item)}>Add to card</Button>
         </Wrapper>
     );
 };

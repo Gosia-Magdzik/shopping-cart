@@ -19,11 +19,27 @@ export const Title = styled.div`
     font-style: italic;
     font-weight: bold;
 
+    @media (max-width: 1300px) {
+        font-size: 50px;
+    };
+
+    @media (max-width: 992px) {
+        font-size: 40px;
+    };
+
+    @media (max-width: 768px) {
+        font-size: 30px;
+    };
+
 `;
 
 export const Svg = styled.img`
     width: 4em;
     height: auto;
+
+    @media (max-width: 768px) {
+        display: none;
+    };
 `;
 
 export const NavBox = styled.div`
