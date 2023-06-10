@@ -14,7 +14,7 @@ export const Cards = ({item, handleClick}) => {
                 />
                 <Title> {title} </Title>
                 <Details> {Collection} </Details>
-                <Price><u>Price:</u> {price} euro</Price>
+                <Price><u>Price</u>: {price} euro</Price>
             <Button onClick={() => handleClick(item)}>Add to card</Button>
         </Wrapper>
     );
