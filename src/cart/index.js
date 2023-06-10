@@ -1,35 +1,38 @@
 import { useState } from "react";
-import { MainWrapper, CartBox, ButtonWrapper, Button, Img } from "./styled";
+import { MainWrapper, CartBox, ButtonWrapper, Button, Img, Wrapper, Title, AlignWrapper, PriceWrapper, Price } from "./styled";
 
 export const Cart = ({ cart, setCart }) => {
   
   const [price, setPrice] = useState(0);
 
     return (
-      <MainWrapper>
-        {
-          cart?.map((item) => {      
-            return ( 
-              <div key={item.id}>
-              <CartBox key = { item.id }>
-                <Img src = { item.img } />
-                <p> { item.title } </p>
-              </CartBox>
-              <ButtonWrapper>
-                  <Button> + </Button>
-                  <Button> - </Button>
-              </ButtonWrapper>
-                <div>
-                    <span> { item.price } </span>
-                    <Button></Button>
-                </div>
-              </div>
-            );
-          })}
-        <div>
-            <span>Total price: </span>
-            <span> { price } euro </span>
-        </div>
-      </MainWrapper>
+      <AlignWrapper>
+        <MainWrapper>
+          {
+            cart?.map((item) => {      
+              return ( 
+                <Wrapper key={ item.id }>
+                  <CartBox>
+                    <Img src = { item.img } />
+                    <Title> { item.title } </Title>
+                  </CartBox>
+                  <ButtonWrapper>
+                      <Button> + </Button>
+                      <Button> { item.amount } </Button>
+                      <Button> - </Button>
+                  </ButtonWrapper>
+                    <PriceWrapper>
+                        <Price> { item.price.toFixed(2) } € </Price>
+                        <Button>Remove</Button>
+                    </PriceWrapper>
+                </Wrapper>
+              );
+            })}
+          <div>
+              <span>Total price: </span>
+              <span> { price } euro </span>
+          </div>
+        </MainWrapper>
+      </AlignWrapper>
     );
 }
