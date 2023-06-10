@@ -62,7 +62,7 @@ export const Img = styled.img`
 export const Size = styled.span`
     color: white;
     background-color: #c33b3b;
-    padding: 10px 15px 11px 14px;
+    padding: 10px 16px 11px 16px;
     border-radius: 50%;
     z-index: 1;
     margin-top: -15px;
