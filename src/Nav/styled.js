@@ -7,6 +7,7 @@ export const Wrapper = styled.nav`
     padding: 32px 26px;
     height: auto;
     position: sticky;
+    z-index: 3;
     top: 0;
     transition: background-color .3s ease-in-out;
     width: 100%;

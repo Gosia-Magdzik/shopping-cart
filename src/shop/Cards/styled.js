@@ -11,6 +11,8 @@ export const Wrapper = styled.div`
     border-radius: 15px;
     box-shadow: 20px 20px 19px -12px black;
     transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
 
     &:hover {
         transform: scale(1.02);

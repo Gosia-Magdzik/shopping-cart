@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const WarningWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    z-index: 2;
 `;
 
 export const WarningStyled = styled.p`
