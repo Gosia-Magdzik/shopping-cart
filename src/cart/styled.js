@@ -87,7 +87,15 @@ export const Title = styled.p`
 export const ButtonWrapper = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    @media (max-width: 992px) {
+        display: flex;
+        flex-direction: column;
+    };
 `;
+
+
 
 export const RemoveButton = styled.button`
     padding: 20px;
@@ -148,6 +156,7 @@ export const Button = styled.button`
     @media (max-width: 992px) {
         padding: 10px;
         margin: 1px;
+        min-width: 35px
     };
 
     @media (max-width: 768px) {
@@ -216,15 +225,15 @@ export const Summary = styled.div`
     color: rgb(255,159,253);
 
     @media (max-width: 1300px) {
-        font-size: 25px;
+        font-size: 35px;
     };
 
     @media (max-width: 992px) {
-        font-size: 20px;
+        font-size: 30px;
     };
 
     @media (max-width: 768px) {
-        font-size: 15px;
+        font-size: 25px;
     };
 `;
 
