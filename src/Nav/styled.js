@@ -74,4 +74,8 @@ export const CartWrapper = styled.div`
     display: flex;
     align-items: flex-start;
 
+    &:hover {
+        scale: 1.1;
+        filter: brightness(1.2);
+    } 
 `;

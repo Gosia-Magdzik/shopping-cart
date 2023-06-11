@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bin from "./bin.svg";
 
 export const AlignWrapper = styled.div`
     display: flex;
@@ -88,6 +89,50 @@ export const ButtonWrapper = styled.div`
     align-items: center;
 `;
 
+export const RemoveButton = styled.button`
+    padding: 20px;
+    border-radius: 5px;
+    margin: 3px;
+    background: rgba(255,240,33,0.65);
+    font-size: 20px;
+
+    @media (max-width: 1300px) {
+        padding: 15px;
+        margin: 2px;
+    };
+
+    @media (max-width: 992px) {
+        padding: 10px;
+        margin: 1px;
+    };
+
+    @media (max-width: 768px) {
+        font-size: 0; 
+        padding: 5px;
+        margin: 1px;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url(${props => props.icon});
+                background-size: cover;
+                margin-right: 5px;
+            }
+    }
+
+    &:hover {
+        transform: scale(1.02);
+        background: rgba(255,240,33,0.8);
+    }
+
+    &:active {
+        transform: scale(1.04);
+        background: rgba(255,240,33,1);
+    }
+`;
+
 export const Button = styled.button`
     padding: 20px;
     border-radius: 5px;
@@ -108,7 +153,8 @@ export const Button = styled.button`
     @media (max-width: 768px) {
         padding: 5px;
         margin: 1px;
-    };
+    }
+
 
     &:hover {
         transform: scale(1.02);
@@ -149,9 +195,9 @@ export const PriceWrapper = styled.div`
 export const Price = styled.p`
     margin-right: 15px;
     width: 200px;
-    //justify-content: flex-end;
     display: flex;
     white-space: nowrap;
+    justify-content: center;
 
     @media (max-width: 1300px) {
         width: 100px;
