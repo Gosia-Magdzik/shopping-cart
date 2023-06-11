@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MainWrapper, CartBox, ButtonWrapper, Button, Img, Wrapper, Title, AlignWrapper, PriceWrapper, Price } from "./styled";
+import { MainWrapper, CartBox, ButtonWrapper, Button, Img, Wrapper, Title, AlignWrapper, PriceWrapper, Price, Summary } from "./styled";
 
 export const Cart = ({ cart, setCart }) => {
   
@@ -28,10 +28,10 @@ export const Cart = ({ cart, setCart }) => {
                 </Wrapper>
               );
             })}
-          <div>
-              <span>Total price: </span>
+          <Summary>
+              <span><u>Total price</u>: </span>
               <span> { price } euro </span>
-          </div>
+          </Summary>
         </MainWrapper>
       </AlignWrapper>
     );
