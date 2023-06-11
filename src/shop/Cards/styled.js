@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #8BBBC2;
+    background-color: rgba(23,133,78,0.1);
     margin: 15px;
     padding: 10px;
     border-radius: 15px;
@@ -30,7 +30,7 @@ export const Image = styled.img`
 export const Details = styled.div`
     margin: 5px;
     font-size: 20px;
-    color: #545454;
+    color: rgb(255,159,253);
 `;
 
 export const Title = styled.p`

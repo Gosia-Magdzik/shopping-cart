@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
-
     margin: 40px auto 10px;
     width: 80%;
 
@@ -21,8 +20,7 @@ export const Wrapper = styled.div`
     @media (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
-        width: 100%;
-
+        width: 90%;
     };
 `;
 
