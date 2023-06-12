@@ -1,3 +1,25 @@
+<div style="text-align: center;"> 
+
+# <span style="color: rgb(23, 119, 133);"> Tennis Shop 🎾  Online Store </span>
+
+<img src="./images/kort.jpg" alt="Opis obrazka" height="150" >
+
+Welcome to the Tennis Shop, an online store written in React <span style="display: inline-block; height: 1em;">
+ ![External SVG](./images/reactjs.svg) </style>
+ where you can explore and purchase tennis-related items. This project is designed to provide users with shopping experience, allowing them to browse, add items to their cart, and proceed to the checkout page to review and edit quantities before making a purchase.
+</div>
+
+## Features
+
+- Responsive design with @media queries for optimal display across different devices
+- Attention to aesthetics and user interface to ensure an enjoyable shopping experience
+
+## Demo
+
+![GIF](./images/tennis.gif)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -48,18 +65,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
