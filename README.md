@@ -4,10 +4,7 @@
 
 <img src="./images/kort.jpg" height="200" >
 
-Welcome to the Tennis Shop, an online store written in React 
- <img src="./images/reactjs.svg" height="1em"/>
- <img src="./controllers_brief.svg">
-
+Welcome to the Tennis Shop, an online store written in React <img src="./images/reactjs.svg" alt="React" style="width: 1em; height: 1em;">
  where you can explore and purchase tennis-related items. This project is designed to provide users with shopping experience, allowing them to browse, add items to their cart, and proceed to the checkout page to review and edit quantities before making a purchase.
 </div>
 
