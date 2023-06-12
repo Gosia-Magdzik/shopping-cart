@@ -1,11 +1,11 @@
-<div style="text-align: center;"> 
+<div align="center"> 
 
-# <span style="color: rgb(23, 119, 133);"> Tennis Shop 🎾  Online Store </span>
+# <div style="color: rgb(23, 119, 133)"> Tennis Shop 🎾  Online Store </div>
 
-<img src="./images/kort.jpg" alt="Opis obrazka" height="150" >
+<img src="./images/kort.jpg" height="150" >
 
-Welcome to the Tennis Shop, an online store written in React <span style="display: inline-block; height: 1em;">
- ![External SVG](./images/reactjs.svg) </style>
+Welcome to the Tennis Shop, an online store written in React 
+ <img src="./images/reactjs.svg" height="1em"/>
  where you can explore and purchase tennis-related items. This project is designed to provide users with shopping experience, allowing them to browse, add items to their cart, and proceed to the checkout page to review and edit quantities before making a purchase.
 </div>
 
