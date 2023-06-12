@@ -1,5 +1,5 @@
 import { useState,  useEffect } from "react";
-import { MainWrapper, CartBox, ButtonWrapper, Button, Img, Wrapper, Title, AlignWrapper, PriceWrapper, Price, Summary, RemoveButton } from "./styled";
+import { MainWrapper, CartBox, ButtonWrapper, Button, Img, Wrapper, Title, AlignWrapper, PriceWrapper, Price, Summary } from "./styled";
 import bin from "./bin.svg";
 
 export const Cart = ({ cart, setCart, handleChange }) => {
@@ -41,7 +41,7 @@ export const Cart = ({ cart, setCart, handleChange }) => {
                   </ButtonWrapper>
                     <PriceWrapper>
                         <Price> { item.price.toFixed(2) } € </Price>
-                        <RemoveButton icon={bin} onClick={() => handleRemove(item.id)}>Remove</RemoveButton>
+                        <Button className="remove" icon={bin} onClick={() => handleRemove(item.id)}>Remove</Button>
                     </PriceWrapper>
                 </Wrapper>
               );

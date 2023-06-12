@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import bin from "./bin.svg";
+import styled, {css} from "styled-components";
 
 export const AlignWrapper = styled.div`
     display: flex;
@@ -95,52 +94,6 @@ export const ButtonWrapper = styled.div`
     };
 `;
 
-
-
-export const RemoveButton = styled.button`
-    padding: 20px;
-    border-radius: 5px;
-    margin: 3px;
-    background: rgba(255,240,33,0.65);
-    font-size: 20px;
-
-    @media (max-width: 1300px) {
-        padding: 15px;
-        margin: 2px;
-    };
-
-    @media (max-width: 992px) {
-        padding: 10px;
-        margin: 1px;
-    };
-
-    @media (max-width: 768px) {
-        font-size: 0; 
-        padding: 5px;
-        margin: 1px;
-
-            &::before {
-                content: '';
-                display: inline-block;
-                width: 20px;
-                height: 20px;
-                background-image: url(${props => props.icon});
-                background-size: cover;
-                margin-right: 5px;
-            }
-    }
-
-    &:hover {
-        transform: scale(1.02);
-        background: rgba(255,240,33,0.8);
-    }
-
-    &:active {
-        transform: scale(1.04);
-        background: rgba(255,240,33,1);
-    }
-`;
-
 export const Button = styled.button`
     padding: 20px;
     border-radius: 5px;
@@ -164,7 +117,6 @@ export const Button = styled.button`
         margin: 1px;
     }
 
-
     &:hover {
         transform: scale(1.02);
         background: rgba(255,240,33,0.8);
@@ -174,6 +126,26 @@ export const Button = styled.button`
         transform: scale(1.04);
         background: rgba(255,240,33,1);
     }
+
+    ${props =>
+        props.remove &&
+        css`
+
+        @media (max-width: 768px) {
+            font-size: 0;
+            padding: 5px;
+            margin: 1px;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url(${props.icon});
+                background-size: cover;
+                margin-right: 5px;
+            }
+        }`}
 `;
 
 export const Img = styled.img`
