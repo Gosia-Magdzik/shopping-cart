@@ -43,6 +43,20 @@ export default () => {
       };
   }, []);
 
+  const handleChange = (item, d) => {
+    let ind = -1;
+    cart.forEach((data, index) => {
+      if (data.id === item.id)
+                ind = index;
+    });
+
+    const tempArr = cart;
+    tempArr[ind].amount += d;
+
+      if (tempArr[ind].amount === 0)
+          tempArr[ind].amount = 1;
+    setCart([...tempArr])
+  }
 
     return (
       <>
@@ -52,7 +66,7 @@ export default () => {
             warning && <WarningWrapper><WarningStyled>☝️ Item is already in your cart</WarningStyled></WarningWrapper>
           } 
           {
-            show ? <Shop handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} />      
+            show ? <Shop handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange} />      
           }
           <Footer />
       </>
