@@ -1,8 +1,6 @@
 <div align="center"> 
 
-# <div style="color: rgb(23, 119, 133)"> Tennis Shop 🎾  Online Store </div>
-
-<img src="./images/kort.jpg" height="200" >
+<img src="./images/kort.png" width="100%" >
 
 Welcome to the Tennis Shop, an online store written in React <img src="./images/reactjs.svg" alt="React" style="width: 1em; height: 1em;">
  where you can explore and purchase tennis-related items. This project is designed to provide users with shopping experience, allowing them to browse, add items to their cart, and proceed to the checkout page to review and edit quantities before making a purchase.
